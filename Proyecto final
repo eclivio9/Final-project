@@ -1,0 +1,157 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<center>\n",
+    "    <img src=\"https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork/labs/Module2/images/SN_web_lightmode.png\" width=\"300\" alt=\"cognitiveclass.ai logo\">\n",
+    "</center>\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Add your code below following the instructions given in the course\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Proyecto Final de Ciencia de Datos"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Introducción\n",
+    "Este cuaderno presenta diversas herramientas y conceptos fundamentales en el campo de la ciencia de datos, con ejemplos prácticos y ejercicios."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Lenguajes de Ciencia de Datos\n",
+    "- Python\n",
+    "- R\n",
+    "- SQL\n",
+    "- Julia"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Bibliotecas de Ciencia de Datos\n",
+    "- Pandas\n",
+    "- NumPy\n",
+    "- Scikit-learn\n",
+    "- Matplotlib"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Herramientas de Ciencia de Datos\n",
+    "| Herramienta     | Descripción                       |\n",
+    "|------------------|-----------------------------------|\n",
+    "| Jupyter Notebook  | Entorno interactivo para codificación |\n",
+    "| GitHub            | Control de versiones y colaboración |\n",
+    "| Tableau           | Visualización de datos             |\n",
+    "| Power BI         | Análisis y reportes de negocios   |"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Ejemplos de Expresiones Aritméticas\n",
+    "En esta sección, veremos algunos ejemplos básicos de operaciones aritméticas."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Ejemplo de multiplicación y suma\n",
+    "a = 5\n",
+    "b = 10\n",
+    "resultado = a * b + 2\n",
+    "resultado  # Esto mostrará el resultado"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2.0"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Convertir minutos a horas\n",
+    "def convertir_minutos_a_horas(minutos):\n",
+    "    return minutos / 60\n",
+    "\n",
+    "horas = convertir_minutos_a_horas(120)  # Conversión de ejemplo\n",
+    "horas  # Esto mostrará el resultado"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Objetivos\n",
+    "- Comprender los lenguajes fundamentales de la ciencia de datos\n",
+    "- Explorar bibliotecas de ciencia de datos\n",
+    "- Conocer herramientas utilizadas en la ciencia de datos"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Autor\n",
+    "Ezequiel Clivio"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python",
+   "language": "python",
+   "name": "conda-env-python-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
